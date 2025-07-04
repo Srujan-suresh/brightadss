@@ -1,0 +1,25 @@
+[       
+
+
+    {
+        "id": 1,
+        "title": "Website Development",
+        "description": "Design and development of responsive websites,e-commerce platforms and UI/UX design with SEO-friendly and performance-optimized coding ",
+        "image": "webdev.jpg",
+        "icon": "13.png"
+    },
+    {
+        "id": 2,
+        "title": " Digital Marketing Management",
+        "description": "End-to-end management of Google Ads, Facebook Ads, LinkedIn, Instagram, YouTube and Campaign performance analytics and budget optimization",
+        "image": "digi.jpg",
+        "icon": "14.png"
+    },
+    {
+        "id": 3,
+        "title": " Managed SEO Services",
+        "description": "Full stack SEO including technical audits, keyword research, backlink building and Continuous performance tracking and SEO optimization",
+        "image": "seo.jpg",
+        "icon": "15.png"
+    }
+]

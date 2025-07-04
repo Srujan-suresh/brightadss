@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "title": "Web Design & Development",
+        "description": "We create visually stunning, user-friendly websites tailored to your brand. Whether you need a sleek corporate site, a powerful e-commerce platform, or a custom CRM solution, our development team delivers responsive, scalable, and high-performance digital experiences that drive results.",
+        "image": "16.png",
+        "tags": ["Custom-built solutions", "Responsive & scalable"]
+    },
+    {
+        "id": 2,
+        "title": "Social Media Marketing",
+        "description": "Engage, grow, and connect with your audience through strategic social media campaigns. We craft compelling content, manage your profiles, and run targeted ads across platforms like Facebook, Instagram and LinkedIn to build brand awareness and drive measurable business growth.",
+        "image": "17.png",
+        "tags": ["Engage & expand audience", "Data-driven campaigns"]
+    },
+    {
+        "id": 3,
+        "title": "SEO ",
+        "description": "Boost your online visibility and attract targeted traffic with our expert SEO strategies. From optimizing your website for search engines to enhancing your presence in local searches, we help your business rank higher, generate quality leads, and convert visitors into loyal customers. ",
+        "image": "18.png",
+        "tags": ["Rank higher, grow faster", "Targeted traffic boost"]
+    },
+    {
+        "id": 4,
+        "title": "Graphic Design",
+        "description": "Our creative team crafts visually captivating graphics that communicate your brand story effectively. From marketing materials to digital creatives, we design with precision and impact to elevate your brand presence.",
+        "image": "18.png",
+        "tags": ["Creative visuals", "Brand storytelling"]
+      },
+      {
+        "id": 5,
+        "title": "Logo & Branding",
+        "description": "We build memorable logos and cohesive branding strategies that define your business identity. Our designs ensure your brand stands out, resonates with your audience, and builds trust and recognition.",
+        "image": "18.png",
+        "tags": ["Memorable logos", "Cohesive branding"]
+      },
+      {
+        "id": 6,
+        "title": "Paid Campaigns",
+        "description": "Maximize your ROI with expertly managed advertising campaigns across platforms like Google Ads and Facebook Ads.We target the right audience with precision to grow your business efficiently.",
+        "image": "18.png",
+        "tags": ["ROI focused", "Targeted advertising"]
+      }
+      
+]
