@@ -1,4 +1,3 @@
-// import about4 from '/assets/img/about/4.jpg'
 import about44 from '/Users/DELL/GIxus v1.1/source/public/newimages/5.jpg'
 import CountUp from 'react-countup';
 
