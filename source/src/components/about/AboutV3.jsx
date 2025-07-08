@@ -1,4 +1,3 @@
-import about44 from '/Users/DELL/GIxus v1.1/source/public/newimages/5.jpg'
 import CountUp from 'react-countup';
 
 const AboutV3 = () => {
@@ -42,7 +41,7 @@ const AboutV3 = () => {
                         </div>
                         <div className="col-lg-5 offset-lg-1">
                             <div className="thumb-style-two">
-                                <img src={about44} alt="Image Not Found" />
+                            <img src="/newimages/5.jpg" alt="Image Not Found" />
                             </div>
                         </div>
                     </div>

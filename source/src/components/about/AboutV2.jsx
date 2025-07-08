@@ -1,6 +1,5 @@
 import { useState } from 'react';
 // import thumb2 from "/assets/img/thumb/2.jpg"
-import thumb55 from "/Users/DELL/GIxus v1.1/source/public/newimages/5.jpg"
 import ModalVideo from 'react-modal-video';
 // import { Link } from 'react-router-dom';
 
@@ -16,8 +15,8 @@ const AboutV2 = () => {
                         <div className="col-xl-6 offset-xl-1 col-lg-6 order-lg-last">
                             <div className="about-style-two-thumb">
                                 <div className="thumb">
-                                    <img src={thumb55} alt="Image Not Found" />
-                                    <div className="shape-card text-light" style={{ backgroundImage: 'url(/assets/img/shape/21.png)' }}>
+                                <img src="/newimages/5.jpg" alt="Image Not Found" />
+                                <div className="shape-card text-light" style={{ backgroundImage: 'url(/assets/img/shape/21.png)' }}>
                                         <h4>Empower your business with us!</h4>
                                     </div>
                                 </div>
