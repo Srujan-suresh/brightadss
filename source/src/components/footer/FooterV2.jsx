@@ -1,6 +1,7 @@
 import FooterNewsLetter from '../form/FooterNewsLetter';
 import SocialShare from '../utilities/SocialShare';
-import logo from "/Users/DELL/GIxus v1.1/source/public/newimages/logo.png"
+// Changed import from absolute system path to relative public path
+const logo = "/newimages/logo.png";
 import { Link } from 'react-router-dom';
 
 const FooterV2 = () => {
@@ -89,7 +90,7 @@ const FooterV2 = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
-                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved by <a href="https://themeforest.net/user/validthemes" target='_blank'>validthemes</a></p>
+                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved by <a href="https://themeforest.net/user/validthemes" target='_blank' rel="noreferrer">validthemes</a></p>
                             </div>
                             <div className="col-lg-6 text-end">
                                 <ul className="link-list">
