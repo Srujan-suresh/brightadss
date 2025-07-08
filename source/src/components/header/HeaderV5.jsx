@@ -1,9 +1,11 @@
-import logo from "/Users/DELL/GIxus v1.1/source/public/newimages/logo.png";
 import MainMenu from './MainMenu';
 import useStickyMenu from '@/hooks/useStickyMenu';
 import useSubMenuToggle from '@/hooks/useSubMenuToggle';
 import useSidebarMenu from '@/hooks/useSidebarMenu';
 import { Link } from 'react-router-dom';
+
+// ✅ Corrected image path — assuming logo is in public/newimages/
+const logo = "/newimages/logo.png";
 
 const HeaderV5 = () => {
 
