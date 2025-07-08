@@ -1,13 +1,12 @@
 import MainMenu from './MainMenu';
-import logoo from "/Users/DELL/GIxus v1.1/source/public/newimages/logo.png";
-import logoLight from "/Users/DELL/GIxus v1.1/source/public/newimages/logo.png";
+// Removed absolute local imports of images
+// Instead, reference images from public folder with root-relative URLs
 import useSubMenuToggle from '@/hooks/useSubMenuToggle';
 import useStickyMenu from '@/hooks/useStickyMenu';
 import useSidebarMenu from '@/hooks/useSidebarMenu';
 import { Link } from 'react-router-dom';
 
 const HeaderV2 = () => {
-
     const toggleSubMenu = useSubMenuToggle();
     const isMenuSticky = useStickyMenu();
     const { isOpen, openMenu, closeMenu } = useSidebarMenu();
@@ -22,13 +21,14 @@ const HeaderV2 = () => {
                                 <i className="fa fa-bars" />
                             </button>
                             <Link className="navbar-brand" to="/">
-                                <img src={logoLight} className="logo logo-display" alt="Logo" />
-                                <img src={logoo} className="logo logo-scrolled" alt="Logo" />
+                                {/* Using root-relative paths for images inside public folder */}
+                                <img src="/newimages/logo.png" className="logo logo-display" alt="Logo" />
+                                <img src="/newimages/logo.png" className="logo logo-scrolled" alt="Logo" />
                             </Link>
                         </div>
                         <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
                             <div className="collapse-header">
-                                <img src={logoo} alt="Logo" />
+                                <img src="/newimages/logo.png" alt="Logo" />
                                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                                     <i className="fa fa-times" />
                                 </button>
