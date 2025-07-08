@@ -1,8 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Autoplay, Pagination, Navigation } from 'swiper/modules';
-import illustration55 from "/Users/DELL/GIxus v1.1/source/public/newimages/5.png"
-import shape16 from "/assets/img/shape/16.png"
-import shape17 from "/assets/img/shape/17.png"
+
+// Changed import from absolute system path to relative public path
+const illustration55 = "/newimages/5.png";
+import shape16 from "/assets/img/shape/16.png";
+import shape17 from "/assets/img/shape/17.png";
 
 const TestimonialV1 = ({ sectionClass }) => {
 
@@ -57,8 +59,7 @@ const TestimonialV1 = ({ sectionClass }) => {
                                                     </div>
                                                     <div className="provider">
                                                         <div className="info">
-                                                            <h4>Sri Charan
-                                                            </h4>
+                                                            <h4>Sri Charan</h4>
                                                             <span>Client</span>
                                                         </div>
                                                     </div>
@@ -75,13 +76,11 @@ const TestimonialV1 = ({ sectionClass }) => {
                                                         </div>
                                                         <p>
                                                         Bright Ads gave me the opportunity to explore my skills as a video editor. The team’s support and creativity are unmatched, proving they’re the best digital marketing agency in Bangalore.
-
                                                         </p>
                                                     </div>
                                                     <div className="provider">
                                                         <div className="info">
-                                                            <h4>                                                        Vrinda Parthan
-                                                            </h4>
+                                                            <h4>Vrinda Parthan</h4>
                                                             <span>Video Editor</span>
                                                         </div>
                                                     </div>
